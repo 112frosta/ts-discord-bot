@@ -10,7 +10,7 @@ export const useActivity = (client: Client) => {
     activities: [
       {
         name: `over ${users} users`,
-        type: ActivityType.Listening,
+        type: ActivityType.Watching,
       },
     ],
     status: "online",
